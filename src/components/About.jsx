@@ -72,7 +72,7 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        <p>   I'm a skilled full-stack software developer with strong expertise in JavaScript, TypeScript, along with solid experience in Python, SQL, HTML/CSS.</p>
+        <p>   I'm a full-stack web developer with strong expertise in JavaScript, TypeScript, along with solid experience in Python, SQL, HTML/CSS.</p>
     
 <p>
   My toolkit spans modern frameworks and libraries such as React, Node.js, Next.js, Redux, Axios, Sass, Bootstrap, and backend technologies including Express, MongoDB, Postgres, Django, as well as tools like Prisma, Clerk, Inngest, and Razorpay for seamless authentication, automation, and payments.
