@@ -38,6 +38,8 @@ import {
   nci,
   adi,
   emi,
+  pci,
+  wci,
 } from '../assets'
 
 
@@ -224,6 +226,23 @@ const testimonials = [
 
 const projects = [
   {
+     name: "WorkMate",
+  description:
+    "A full-stack role-based dashboards (Client & Worker), real-time Socket.IO chat, video-call meetings, job posting, OTP/JWT authentication built with React  frontend and Node/Express + MongoDB backend.",
+  tags: [
+    { name: "React", color: "blue-text-gradient" },
+    { name: "Node.js", color: "green-text-gradient" },
+    { name: "Express.js", color: "pink-text-gradient" },
+    { name: "MongoDB", color: "green-text-gradient" },
+    { name: "Socket.IO", color: "white-text-gradient" },
+    { name: "Tailwind CSS", color: "white-text-gradient" }
+  ],
+  image:wci,
+  source_code_link: "https://github.com/suryapratap64/workmate",
+  live_link: "https://workmate-two.vercel.app/"
+  },
+  
+  {
     name: "Instagram Clone",
     description:
       "A full-stack social media app with real-time messaging, post interactions (like/comment), notifications, and secure user authentication. Supports image uploads and file handling with a clean, modern UI.",
@@ -237,6 +256,22 @@ const projects = [
     image: ici, // replace with your actual import
     source_code_link: "https://github.com/suryapratap64/instagram",
      live_link:"https://instagram-3-r3kd.onrender.com/",
+  },
+  {
+     name: "ProboPlay",
+  description:
+    "A modern, real-time prediction market platform inspired by Probo. Users can browse, create, and resolve YES/NO markets with full order books, place limit orders, see market depth in real time, view analytics & charts.",
+  tags: [
+    { name: "Next.js", color: "blue-text-gradient" },
+    { name: "Firebase", color: "green-text-gradient" },
+    { name: "Recharts", color: "pink-text-gradient" },
+    { name: "Tailwind CSS", color: "white-text-gradient" },
+    { name: "Realtime", color: "green-text-gradient" }
+  ],
+  image: pci,
+  source_code_link: "https://github.com/suryapratap64/proboplay",
+  live_link: "https://probo-play.vercel.app/"
+
   },
   {
     name: "QuickMart",

@@ -37,7 +37,8 @@ import qmi from "./qmi.png";
 import nci from "./nci.png";
 import adi from "./adi.png";
 import emi from "./emi.png";
-
+import wci from  "./wci.png";
+import pci from  "./pci.png";
 
 export {
   logo,
@@ -73,6 +74,8 @@ export {
   typescript,
   cpp,
   ici,
+  wci,
+  pci,
   qmi,
   nci,
   adi,
