@@ -40,6 +40,8 @@ import {
   emi,
   pci,
   wci,
+  sfi,
+  psi,
 } from '../assets'
 
 
@@ -299,10 +301,41 @@ const projects = [
       { name: "MongoDB", color: "green-text-gradient" },
       { name: "Tailwind CSS", color: "white-text-gradient" },
     ],
-    image: nci, // replace with your actual import
+    image:nci, // replace with your actual import
     source_code_link: "https://github.com/suryapratap64/Netflix",
      live_link:"https://netflix-sk1e.onrender.com/",
   },
+  {
+  name: "Somanifinance",
+  description:
+    "A real-time finance dashboard that tracks profits, losses, stocks, and mutual funds. Provides interactive charts and analytics for smarter investment decisions.",
+  tags: [
+    { name: "React", color: "blue-text-gradient" },
+    { name: "Node.js", color: "green-text-gradient" },
+    { name: "Express.js", color: "pink-text-gradient" },
+    { name: "MongoDB", color: "green-text-gradient" },
+    { name: "Chart.js", color: "white-text-gradient" },
+  ],
+  image: sfi, // replace with your actual import
+  source_code_link: "https://github.com/suryapratap64/Suryafinance",
+  live_link: "https://suryafinance.vercel.app", // live deployment link
+},
+
+{
+  name: "Probo Frontend Supabase",
+  description:
+    "A full-stack web application built with Next.js and integrated with Supabase for backend services. Features include secure authentication, real-time data updates, responsive modern UI, and optimized performance.",
+  tags: [
+    { name: "Next.js", color: "blue-text-gradient" },
+    { name: "Supabase", color: "green-text-gradient" },
+    { name: "React", color: "pink-text-gradient" },
+    { name: "Tailwind CSS", color: "white-text-gradient" },
+  ],
+  image: psi, 
+  source_code_link: "https://github.com/suryapratap64/probofrontend-supabase",
+  live_link: "https://probofrontend-supabase.vercel.app", // live deployment link
+},
+
   {
   name: "Add Edit Task",
   description:
@@ -322,7 +355,7 @@ const projects = [
 {
   name: "Emotion Reflector",
   description:
-    "A modern full-stack AI-powered web app that analyzes user reflections and predicts emotion, confidence score, and emoji in real time. Features a beautiful glassmorphism UI, real-time FastAPI backend, and cloud deployment.",
+    "A modern full-stack AI-powered web app that analyzes user reflections and predicts emotion, confidence score, and emoji in real time. Features a beautiful glassmorphism UI, real-time FastAPI backend.",
   tags: [
     { name: "Next.js", color: "blue-text-gradient" },
     { name: "TypeScript", color: "green-text-gradient" },

@@ -39,6 +39,8 @@ import adi from "./adi.png";
 import emi from "./emi.png";
 import wci from  "./wci.png";
 import pci from  "./pci.png";
+import psi from "./psi.png";
+import sfi from "./sfi.png";
 
 export {
   logo,
@@ -80,5 +82,7 @@ export {
   nci,
   adi,
   emi,
+  psi,
+  sfi
 
 };
